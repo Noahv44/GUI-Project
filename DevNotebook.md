@@ -1,6 +1,6 @@
 CSCI-310 Development Notebook
 Name:
-Noah Vachon
+Noah Vachon And Daris Kadric
 
 Project/Assignment:
 CSCI 310 Project 2: 3D Game - Escape the Jungle Mini Golf
@@ -246,3 +246,4 @@ Final Game Features:
 - Pause menu & scoring
 - Professional UI
 - Atmospheric environment
+
