@@ -1,0 +1,29 @@
+{
+  "name": "escape-jungle-mini-golf",
+  "version": "1.0.0",
+  "description": "A simple 3D mini golf game set in a jungle environment.",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "start": "npm run build && npx http-server public -p 8080 -o",
+    "dev": "tsc && npx http-server public -p 8080",
+    "clean": "del /Q public\\*.js public\\*.js.map 2>nul || rm -f public/*.js public/*.js.map"
+  },
+  "dependencies": {
+    "three": "^0.130.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.180.0",
+    "http-server": "^0.12.3",
+    "typescript": "^4.5.0"
+  },
+  "keywords": [
+    "mini-golf",
+    "3D",
+    "game",
+    "jungle"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

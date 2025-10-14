@@ -1,0 +1,36 @@
+Escape the Jungle Mini Golf Game Guidelines
+
+1. Project Overview
+   - This project is a simple 3D mini golf game set in a jungle environment. Players will navigate through various obstacles and challenges to complete each hole.
+
+2. File Structure
+   - The project is organized into several key directories and files:
+     - `public/index.html`: Main HTML document for the game.
+     - `src/main.ts`: Entry point for the game logic.
+     - `src/game/golf.ts`: Manages golf ball properties and behaviors.
+     - `src/game/jungle.ts`: Represents the jungle environment and obstacles.
+     - `src/game/physics.ts`: Handles physics calculations for realistic movement.
+     - `src/assets/models/README.md`: Documentation for 3D models used in the game.
+     - `src/types/index.ts`: Type definitions for the project.
+     - `tsconfig.json`: TypeScript configuration file.
+     - `package.json`: npm configuration file for dependencies.
+
+3. Development Guidelines
+   - Follow TypeScript best practices for coding.
+   - Ensure all code is well-documented and follows consistent naming conventions.
+   - Use version control (e.g., Git) for tracking changes and collaboration.
+
+4. Dependencies
+   - The project requires `three.js` for 3D rendering. Ensure to install all necessary dependencies listed in `package.json`.
+
+5. Gameplay Mechanics
+   - Players will use mouse or keyboard input to hit the golf ball.
+   - The game should include multiple holes with increasing difficulty.
+   - Implement a scoring system to track player performance.
+
+6. Testing
+   - Regularly test the game for bugs and performance issues.
+   - Ensure compatibility across different web browsers.
+
+7. Contribution
+   - Contributions are welcome! Please follow the guidelines for submitting pull requests and issues.
