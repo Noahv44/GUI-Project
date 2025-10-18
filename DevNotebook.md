@@ -15,13 +15,13 @@ Development Log
 Iteration 1: Initial Setup & Basic Scene
 
 What do you do?
-Set up the project structure with TypeScript and Three.js. Created basic scene with ground, lighting, and a simple golf ball. Implemented initial camera positioning and basic controls.
+Set up the project structure with TypeScript and Three.js. Created a basic scene with ground, lighting, and a simple golf ball. Implemented initial camera positioning and basic controls.
 
 Response/Result:
 - Successfully initialized Three.js scene with renderer, camera, and lighting
 - Created ground plane using PlaneGeometry with green material
-- Added sphere geometry for golf ball with basic physics (gravity)
-- Implemented basic camera controls and scene rendering loop
+- Added sphere geometry for golf ball with basic physics. Its the gravity 
+- Implemented a basic camera controls and scene rendering loop
 - Game loads in browser at localhost:8080
 
 Your Evaluation:
@@ -43,7 +43,7 @@ Response/Result:
 - Realistic arc trajectories with varying heights based on club type
 
 Your Evaluation:
-Major improvement! The golf mechanics feel realistic and responsive. Power charging adds strategy - need to time your hits. Different clubs create noticeably different shots. However, the ball sometimes goes through obstacles at high speed. Need better collision detection. Also, having just a floating ball isn't very immersive - would be better with a visible golfer character.
+Major improvement! The golf mechanics feel realistic and responsive. Power charging adds strategy and help need to time your hits. Different clubs create noticeably different shots. However, the ball sometimes goes through obstacles at high speed. Need better collision detection. Also, having just a floating ball isn't very immersive it would be better with a visible golfer character.
 
 ---
 
@@ -61,7 +61,7 @@ Response/Result:
 - Visual feedback helps player see what club they're using
 
 Your Evaluation:
-Excellent addition! Having a visible golfer makes the game much more engaging and helps with aiming. The pendulum swing looks natural and gives good visual feedback when hitting. The golfer properly rotates to face where you're aiming. One issue: golfer appears at new holes even after finishing previous hole. Need cleanup between holes. Also, collision detection still needs work - ball phases through obstacles at high speeds.
+Excellent addition! Having a visible golfer makes the game much more engaging and helps with aiming. The pendulum swing looks natural and gives good visual feedback when hitting. The golfer properly rotates to face where you're aiming. One issue: golfer appears at new holes even after finishing previous hole. Need cleanup between holes. Also, collision detection still needs work but the ball phases through obstacles at high speeds.
 
 ---
 
@@ -117,7 +117,7 @@ Response/Result:
 - Camera view indicator shows current mode in UI
 
 Your Evaluation:
-Fantastic improvement! The close Player view makes aiming much more precise and immersive - feels like you're standing behind the ball. The auto-follow during shots is cinematic and lets you watch your ball flight. Dynamic zoom when ball is in air is especially nice for wedge shots. The automatic mode switching works perfectly - no manual toggling needed. Camera smoothly returns to aiming position when ball stops. However, need a better way to see where the hole is from far away.
+Fantastic improvement! The close Player view makes aiming much more precise and immersive so it feels like you're standing behind the ball. The auto-follow during shots is cinematic and lets you watch your ball flight. Dynamic zoom when ball is in air is especially nice for wedge shots. The automatic mode switching works perfectly so the no manual toggling needed. Camera smoothly returns to aiming position when ball stops. However, need a better way to see where the hole is from far away.
 
 ---
 
@@ -246,4 +246,5 @@ Final Game Features:
 - Pause menu & scoring
 - Professional UI
 - Atmospheric environment
+
 
